@@ -1,0 +1,13 @@
+.input {
+  border: 1px solid cornflowerblue;
+  padding: 10px;
+}
+.small {
+  width: 10em;
+}
+.medium {
+  width: 15em;
+}
+.large {
+  width: 20em;
+}

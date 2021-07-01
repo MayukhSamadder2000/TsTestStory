@@ -1,0 +1,30 @@
+.button {
+  padding: 10px 1.5em;
+  border-radius: 10em;
+  text-align: center;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: #fff;
+}
+.large {
+  width: 10em;
+}
+.small {
+  width: 6em;
+}
+.medium {
+  width: 8em;
+}
+.red {
+  background-color: rgb(240, 40, 83);
+}
+.blue {
+  background-color: rgb(0, 110, 255);
+}
+.gradient {
+  background: linear-gradient(
+    to right bottom,
+    rgb(113, 110, 243),
+    rgb(150, 70, 243)
+  );
+}
