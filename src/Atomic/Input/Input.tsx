@@ -1,16 +1,17 @@
 import React from "react";
-import './input.css'
+import "./input.css";
 
-interface InputProps{
-    size?:'small' | 'medium' | 'large' ;
+interface InputProps {
+  size?: "small" | "medium" | "large";
 }
 
-export const Input=({
-    size="small",
-    ...props
-}:InputProps)=>{
-    return(
-        <input type="text" className={['input',`${size}`].join(' ')} {...props} />
-    )
-}
-
+export const Input = ({ size = "small", ...props }: InputProps) => {
+  return (
+    <input
+      type='text'
+      className={["input", `${size}`].join(" ")}
+      placeholder='Enter here...'
+      {...props}
+    />
+  );
+};

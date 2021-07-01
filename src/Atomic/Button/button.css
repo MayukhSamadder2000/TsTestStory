@@ -2,9 +2,11 @@
   padding: 10px 1.5em;
   border-radius: 10em;
   text-align: center;
+  font-size: 1rem !important;
   font-family: sans-serif;
   cursor: pointer;
   color: #fff;
+  transition: 0.3s ease;
 }
 .large {
   width: 10em;
@@ -27,4 +29,12 @@
     rgb(113, 110, 243),
     rgb(150, 70, 243)
   );
+}
+.clicked {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(1, 1, 1, 0.15);
+  background-color: transparent;
+  color: rgb(240, 40, 83);
+  border: 3px solid rgb(240, 40, 83);
+  transition: 0.3s ease;
 }

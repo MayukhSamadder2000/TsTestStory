@@ -1,0 +1,18 @@
+.form {
+  width: 40em;
+  height: 30em;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.light {
+  background: linear-gradient(to right bottom, #dddd, #fdfdfd);
+  box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.17);
+}
+.dark {
+  background: linear-gradient(to right bottom, #1b1b1b, #3a3939);
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.17);
+  color: #eee;
+}
