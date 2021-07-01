@@ -1,0 +1,14 @@
+.title {
+  color: #222;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.small {
+  font-size: 1.5rem;
+}
+.medium {
+  font-size: 2em;
+}
+.large {
+  font-size: 3em;
+}
